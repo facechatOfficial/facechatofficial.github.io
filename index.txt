@@ -1,4 +1,4 @@
-<style>
+﻿<style>
   @keyframes motinx{
     from{transform:rotate(0deg);}
     to{transform:rotate(180deg);}
@@ -63,4 +63,102 @@
 <a href=""></a>
 <span></span>
 </div>
+<!-- Start Menu For Blog :: aryan-pc.blog.ir -->
 
+<!-- Loading CSS and Files -->
+<link href="http://bayanbox.ir/download/816171449860137654/Start.css" rel="stylesheet" type="text/css">
+
+<div id="startbar">
+    <div id="win">
+        <div id="menu">
+            <div class="left-menu" style="height:467px;">
+                <box:links>
+                    <ul>
+                        <view:links>
+                            <li><a alt="(*link_alt*)" href="(*link_url*)"><div class="fleft foldr"></div>(*link_name*)</a></li>
+                        </view:links>
+                    </ul>
+                </box:links>
+
+                <!-- Start :: Search Form [Needs Javascript] -->
+
+                    <!--<form id="search" action="" name="prikitiw"><input style="width:220px" type="text" placeholder="جستجو" /></form>-->
+
+                <!-- End :: Search Form ] -->
+
+            </div><!-- leftmenu -->
+
+            <div class="right-menu">
+                <box:menu>
+                    <ul>
+                        <view:menu>
+                            <li><a class="(*menu_item_selected*)" href="(*menu_item_link*)">(*menu_item_title*)</a></li>
+                        </view:menu>
+                    </ul>
+                </box:menu>
+
+                <div id="kontener">
+                    <div class="admin" style="background:url('<check:if blog_image>(*blog_image*)</check:if><check:if not blog_image></check:if>') repeat scroll 0 0 / 50px auto rgba(0, 0, 0, 0)"></div>
+                </div>
+
+            </div> <!-- rightmenu -->
+
+            <div class="clear"></div>
+
+        </div> <!-- menu -->
+
+        <div id="cont-win" title="Start">
+            <div class="w1"></div><div class="w2"></div>
+            <div class="clear"></div>
+            <div class="w3"></div><div class="w4"></div>
+            <div class="clear"></div>
+        </div>
+
+    </div> <!-- win -->
+
+    <div id="list">
+
+    <!-- Start :: Extras [Optional] -->
+
+        <!--
+            <box:daily_links>
+   
+                <view:daily_links>
+                    <div class="opened tunggal">
+                        <div class="foldr np small">
+                            <span><a alt="(*link_alt*)" href="(*link_url*)" id="textnet">(*link_name*)</a></span>
+                        </div>
+                    </div>
+                </view:daily_links>
+       
+            </box:daily_links>
+        -->
+
+    <!-- End :: Extras -->
+
+
+
+     <!-- list -->
+        <div class="clear"></div>
+    </div> <!-- opened pilled -->
+
+    <div class="opened hide"></div>
+    <div id="fright">
+        <div class="plus">
+            <div class="screensht">
+                <div class="grup">
+             کانستراکت 2 <hr>    (*blog_description*)
+                </div>
+            </div>
+        </div> <!-- plus -->
+
+        <div class="connection" title="متصل به اينترنت"></div>
+        <div class="speker" title="صدا 100%"></div>
+        <div class="jam"><a target="_blank" href="http://sirra.blog.ir" id="owner">  کانستراکت 2</a></div>iv&gt;
+        <div class="clear"></div>
+			<div class="exit" title="خروج"></div>
+    </div>
+
+</div> 
+
+<!-- End of startbar :: aryan-pc.blog.ir -->
