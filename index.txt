@@ -57,10 +57,10 @@
 <style>/* menu right click */#menu {background-color: #fff;border-color: #74abdb;border-left: 4px solid #74abdb;border-radius: 2px;border-right: 4px solid #74abdb;border-style: solid;border-width: 1px 4px;box-shadow: 20px 20px 20px #979797;direction: rtl;display: none;font: 11px tahoma;padding: 5px;position: absolute;width: 150px;z-index: 2147483647;}#menu a{border: 1px solid transparent;border-radius: 3px;color: #000;display: block;font: 11px tahoma;padding: 3px;text-decoration: none;}#menu a:hover{background-color: #c8e4ff;border-radius: 2px;}#menu hr{border-top:1px #74ABDB solid;border-bottom:1px #fff solid;border-left:none;border-right:none;margin:3px 0 3px 0;padding:0;}#menu span{border: 1px solid transparent;border-radius: 3px;color: #000;display: block;font: 10px tahoma;padding: 3px;text-align: center;text-decoration: none;}</style>
 <script>$(document).bind("contextmenu", function(e) {return false;});$("#myid").bind("contextmenu", function(e) {return false;});$(document).bind("contextmenu", function(e) {$('#menu').css({top: e.pageY+'px',left: e.pageX+'px'}).fadeIn();return false;});$(document).ready(function() {$(document).click(function() {$('#menu').hide();});}); </script>
 <div id="menu">
-<a href="https://facechatofficial.github.io">خانه</a>
+<a href="http://facechatofficial.github.io">خانه</a>
 <a href="http://construct2.ir">انجمن</a>
-<a href=""></a>
-<a href=""></a>
+<a href="https://facechatofficial.github.io/facechat">فیس چت</a>
+<a href="https://facechatofficial.github.io/cunter">کانتر</a>
 <span></span>
 </div>
 <!-- Start Menu For Blog :: aryan-pc.blog.ir -->
