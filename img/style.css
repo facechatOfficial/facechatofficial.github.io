@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'yekan';
+	src: url('//cdn.bayan.ir/blog/templates/shared/fonts/BYekan.eot?download');
+	src: url('//cdn.bayan.ir/blog/templates/shared/fonts/Byekan.eot?download#iefix') format('embedded-opentype'),
+	url('//cdn.bayan.ir/blog/templates/shared/fonts/Byekan.woff?download') format('woff'),
+	url('//cdn.bayan.ir/blog/templates/shared/fonts/Byekan.ttf?download') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'yekan';
+	src: url('//cdn.bayan.ir/blog/templates/shared/fonts/BYekan.eot?download');
+	src: url('//cdn.bayan.ir/blog/templates/shared/fonts/BYekan.eot?download#iefix') format('embedded-opentype'),
+	url('//cdn.bayan.ir/blog/templates/shared/fonts/BYekan.woff?download') format('woff'),
+	url('//cdn.bayan.ir/blog/templates/shared/fonts/BYekan.ttf?download') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
