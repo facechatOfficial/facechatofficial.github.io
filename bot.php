@@ -24,3 +24,9 @@ string = json_decode(file_get_contents('php://input'));
     
     
     $res = file_get_contents($url);
+if($text == 'سلام')
+	$text_reply = 'سلام';
+if($text == 'اسم تون')
+	$text_reply = 'ربات تست';
+if($text == 'خوبی؟')
+	$text_reply = 'ممنون';
