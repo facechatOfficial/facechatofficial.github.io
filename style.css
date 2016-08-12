@@ -138,3 +138,14 @@ a:active{
 @media screen and (max-width:479px) { .krbrd {display:none;} }
 
 .krbrd .title { background-color:#cbcbcb;} .krbrd .title:nth-child(odd) { background-color:#a3a3a3;} .krbrd .title:hover { background-color:#dadada;}
+
+.loadie {
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color: tomato;
+	width: 100%;
+	height: 4px;
+	-webkit-transition: width 0.5s ease-out;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.25);
+}
