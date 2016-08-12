@@ -7,11 +7,25 @@
 <script src="http://up.ghalebgraph.ir/up/galebgraph/posts/code/java/16/jquery.min.js"></script>
 <link rel="stylesheet" href="http://up.ghalebgraph.ir/up/galebgraph/posts/code/java/16/Cover3D.css">
 <script src="http://up.ghalebgraph.ir/up/galebgraph/posts/code/java/16/Cover3D.js"></script>
-
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="/loading-function.js" type="text/javascript"></script>
     </head>
 <body dir="rtl">
    
 <!--scripts-->
+<script>
+	$(function() {
+		var totalImages = $('img').size();
+		var imagesLoaded = 0;
+		$('body').loadie();
+		$('img').bind("load", function(){
+      $(this).show();
+
+      imagesLoaded++;
+      $('body').loadie(imagesLoaded / totalImages);
+    });
+	})
+	</script>
 <script>function hideall(){hidea.style.display='none';}</script><div id="hidea">
 <div class="krbrd"> 
 <div onclick="hideall()"><div class="cls"> </div></div>
