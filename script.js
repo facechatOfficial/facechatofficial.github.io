@@ -1,1 +1,7 @@
-$(document).bind("contextmenu", function(e) {return false;});$("#myid").bind("contextmenu", function(e) {return false;});$(document).bind("contextmenu", function(e) {$('#menu').css({top: e.pageY+'px',left: e.pageX+'px'}).fadeIn();return false;});$(document).ready(function() {$(document).click(function() {$('#menu').hide();});}); 
+$(document).ready(function(){
+
+	/* Adding a colortip to any tag with a title attribute: */
+
+	$('[title]').colorTip({color:'yellow'});
+
+});
