@@ -157,4 +157,45 @@ a:active{
 .close {background-color: rgba(0, 0, 0, 0.8);height: 30px;line-height: 30px;position: absolute;right: 0;text-align: center;text-decoration: none;top: -15px;width: 30px;-webkit-border-radius: 15px;-moz-border-radius: 15px;-ms-border-radius: 15px;-o-border-radius: 15px;border-radius: 15px;}
 .close:before {color: rgba(255, 255, 255, 0.9);content: "X";font-size: 20px;font-family:tahoma;text-shadow: 0 -1px rgba(0, 0, 0, 0.9);}
 .close:hover {background-color: rgba(64, 128, 128, 0.8);}
-
+#GhalebGraph5{
+border:1px #A0A0A0 dashed; 
+border-right:3px cyan solid; 
+border-left:3px cyan solid;
+border-radius:5px;
+-moz-border-radius:5px;
+-ms-border-radius:5px;
+-webkit-border-radius:5px;
+-o-border-radius:5px;
+-khtml-border-radius:5px;
+z-index: 3000;
+background:black;
+min-width:40px;
+min-height:14px;
+text-align:center;
+padding:5px 5px;
+filter:alpha(opacity=80);
+opacity:0.8;
+color:#fff;
+font-size:9pt;
+font-family: b yekan;yekan;
+text-shadow:0px 0px 4px #fff;
+-o-text-shadow:0px 0px 4px #fff;
+-moz-text-shadow:0px 0px 4px #fff;
+-ms-text-shadow:0px 0px 4px #fff;
+-webkit-text-shadow:0px 0px 4px #fff;
+display:none;
+box-shadow: 0px 0px 3px #000;
+-moz-box-shadow: 0px 0px 3px #000;
+-ms-box-shadow: 0px 0px 3px #000;
+-webkit-box-shadow: 0px 0px 3px #000;
+-khtml-box-shadow: 0px 0px 3px #000;
+-o-box-shadow: 0px 0px 3px #000;
+position:absolute;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:10px;
+max-width: 300px;
+background-color:black!important;
+direction: rtl;
+word-wrap: break-word;
+}
