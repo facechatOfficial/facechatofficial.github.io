@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /process/
-
 Sitemap: http://shayeglin.github.io/sitemap.xml
