@@ -13,3 +13,9 @@
 .sidebox.blank .sidebox-content h4 {
   font-family:IRANSans;
 }
+.block-content .messages .messages-content h2 {
+  font-family:IRANSans;
+}
+.button {
+  font-family:IRANSans!important;
+}
